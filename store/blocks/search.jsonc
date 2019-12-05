@@ -46,6 +46,9 @@
 "gallery": {
   "blocks": ["product-summary.shelf"]
 },
+"product-summary.shelf": {
+  "children": ["product-summary-sku-selector"]
+},
 "flex-layout.row#top": {
   "children": [
     "total-products.v2",
