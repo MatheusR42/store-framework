@@ -52,16 +52,16 @@
       "product-brand"
     ]
   },
-  "product-brand": {
-    "props": {
-      "height": "30"
-    }
-  },
   "sku-selector": {
     "props": {
       "initialSelection": "empty",
       "showValueNameForImageVariation": true,
       "showVariationsErrorMessage": true
+    }
+  },
+  "product-brand": {
+    "props": {
+      "height": 30
     }
   }
  }
