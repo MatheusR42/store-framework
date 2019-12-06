@@ -13,7 +13,6 @@
   "children": [
     "breadcrumb.search",
     "search-title.v2",
-    "flex-layout.row#top",
     "search-fetch-previous",
     "flex-layout.row#results",
     "search-fetch-more"
@@ -35,7 +34,7 @@
   }
 },
 "flex-layout.col#search": {
-  "children": ["search-content"]
+  "children": ["flex-layout.row#top", "search-content"]
 },
 "search-content": {
   "blocks": ["gallery", "not-found"]
